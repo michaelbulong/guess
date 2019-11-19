@@ -24,3 +24,7 @@ while guessesTaken < 10
 if guess != number: 
     number == str(guessesTaken)
     print("nope, the number i was thinking of was" + number)
+
+if guess == number: 
+    guessesTaken = str(guessesTaken)
+    print("ayyy, you guessed my number in" + guessesTaken + "attempts")
