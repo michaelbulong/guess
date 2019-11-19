@@ -9,3 +9,12 @@ while guessesTaken < 10
     print ("take a guess")
     guess = input()
     guess = int(guess)
+
+    guessesTaken = guessesTaken + 1
+
+    if guess < number:
+        print ("guess is too low try again")
+
+     if guess > number:
+        print ("guess is too high try again")
+        
