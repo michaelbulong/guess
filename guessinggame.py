@@ -17,4 +17,10 @@ while guessesTaken < 10
 
      if guess > number:
         print ("guess is too high try again")
-        
+
+    if guess == number: 
+        break
+
+if guess != number: 
+    number == str(guessesTaken)
+    print("nope, the number i was thinking of was" + number)
